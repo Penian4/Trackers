@@ -14,7 +14,7 @@ if ($status=='found') $status='Online';
 putenv('GDFONTPATH=' . realpath('.'));
 $im = imagecreatefrompng('tracker.png'); //create the image
 $white = imagecolorallocate($im, 255, 255, 255);
-$font = 'font.ttf';
+$font = 'includes/font.ttf';
 
 imagettftext($im, 16, 0, 230, 110, $white, $font, $status);
 imagettftext($im, 16, 0, 230, 140, $white, $font, $server);

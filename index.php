@@ -2,7 +2,7 @@
 //Manual Tracker by Penian4
 //index.php
 /*this displays the form and updates the tracker image, and auto tweets*/
-require_once 'twitteroauth.php';
+require_once 'includes/twitteroauth.php';
 //CHANGE THE VARIABLES BELOW
 $password = 'Choose a Password';
 $mascotname = 'Mascot Name';
